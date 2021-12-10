@@ -18,7 +18,7 @@
             "persistent": true,
             "js": ["jquery.min.js", "index.js"],
             "css": ["style.css"],
-            "matches": ["https://palmetto-cargas.silverlinevps.com/cargasenergy/Customer/*"],
+            "matches": ["URL_TO_RUN_ON"],
             "run_at": "document_idle"
         }
     ],
