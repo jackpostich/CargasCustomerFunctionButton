@@ -1,0 +1,12 @@
+#send_button {
+    cursor:pointer;
+    background-color:#1dbf73;
+    color:#FFFFFF;
+    padding:15px;
+    border:1px solid #000000;
+    font-weight: bold;
+    z-index:9999999;
+    position:absolute;
+    top:50px;
+    left:40%;
+}
