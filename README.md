@@ -1,6 +1,7 @@
-# CargasCustomerFunctionButton
-Adds a programmable button the the Cargas Energy Customer Accounts page.
-This code creates a Chrome Extension that adds functionality to the Cargas Energy website. Currently it adds one button to the Customer Accounts screen that will trigger a programmable webhook.
+# ChromeExtensionFunctionButton
+Adds a programmable button to any specified page.
+
+This creates a function button to the top of any specified page. Current code calls fetch() to a webhook URL.
 
 Before compiling and deploying, you will need to edit fields in "index.js" WEB_URL_HERE for your webhook URL
 
