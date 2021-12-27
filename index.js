@@ -1,7 +1,9 @@
+//create the interact button
 $(function () {
     const send_button = '<button id="send_button">LOG CUSTOMER CALL</button>';
     $("body").append(send_button);
 
+//parse the URL to exact just the customer ID value
     $("body").on("click", '#send_button', function () {
         let current_url = window.location.href;
         let customer_id = "";
@@ -16,7 +18,7 @@ $(function () {
 
 });
 
-
+//trigger webhook and inject headers to be parse in Power Automate. append custid
 function send_webhook(customer_id) {
     let url = "webhook_URL_HERE";
     $.ajax({
